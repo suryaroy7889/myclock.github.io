@@ -1,0 +1,125 @@
+#outer
+{
+	min-height:1450px;
+	width:100%;
+	background: aqua;
+	margin:0px auto;
+	border:1px solid black;
+}
+#div1
+{
+	height: 100px;
+	width: 100%;
+	background: red;
+}
+#logo
+{
+	height: 100px;
+	width: 30%;
+	background: blue;
+	float: left;
+}
+#menu
+{
+	height: 100px;
+	width:70%;
+	background: green;
+	margin-left: 30%;
+}
+#slider
+{
+	height:500px;
+	width: 100%;
+	background: pink;
+}
+#main
+{
+	height:500px;
+	width: 100%;
+	background: red;
+}
+#idcard
+{
+	height: 350px;
+	width: 100%;
+	background:blue;
+}
+#footer
+{
+	background:black;
+	height: 50px;
+	width: 1334px;
+	color: white;
+}
+#logoimg
+{
+	height: 99px;
+	width: 400px;
+	background-size: cover;
+	border-bottom:1px solid black;
+}
+.sliderimg
+{
+	height: 500px;
+	width: 500px;
+	background: navy;
+
+}
+.idcard1
+{
+	height:250px;
+	width: 200px;
+	background: white;
+	float: left;
+	margin:50px;
+	margin-left:12%;
+}
+.i
+{
+	height: 130px;
+	width: 130px;
+	margin: 35px;
+	margin-top:-25px;
+	//box-shadow: 1px 1px 1px blue;
+}
+.idcardimg
+{
+	height: 130px;
+	width: 130px;
+	border-radius:10px;
+	box-shadow:1px 1px 8px 6px grey;
+	transition: 2s;
+}
+.idcardimg:hover
+{
+	transform: scale(1.2,1.2);
+
+}
+.t
+{
+	height: 110px;
+	width: 200px;
+	background: green;
+}
+.mainimgdiv
+{
+	height:200px;
+	width: 200px;
+	float: left;
+	margin:33px 0px 0px 106.6px;
+	border-radius: 10px;
+}
+.mainimg
+{
+	height: 200px;
+	width:200px;
+	border-radius: 100px;
+	opacity: .8;
+	transition: 2s;
+}
+.mainimg:hover
+{
+	transform: scale(1.2,1.2);
+	opacity:10;
+	border-radius: 10px;
+}
