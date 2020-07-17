@@ -1,0 +1,71 @@
+body
+{
+	background: aqua;
+
+}
+#main
+{
+	height:540px;
+	width:500px;
+	background:aqua;
+	float: left;
+	margin-top:25px;
+	margin-left: 400px;
+	border-radius: 10px;
+	border:10px solid blue;
+	box-shadow:1px 1px 8px 6px black inset;
+}
+#div1
+{
+	height:440px;
+	width:400px;
+	background:#1e4d92;
+	margin:40px;
+	border-radius:15px;
+	border:10px solid blue;
+	box-shadow:1px 1px 10px 8px black;
+}
+h1
+{
+	height:20px; 
+	margin-left:80px; 
+	font-size: 50px;
+	color: white
+}
+input
+{
+	margin:20px 10px 10px 30px;
+	padding: 10px;
+	width: 80%; 
+	font-size: 15px; 
+	font-weight: bold;
+}
+button
+{
+	width: 200px;
+	padding:10px;
+	margin:10px 0px 0px 100px;
+	background:linear-gradient(45deg,#00c6a7,#1e4d92);
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	box-shadow:1px 1px 10px 2px black inset;
+	cursor: pointer;
+}
+button:hover
+{
+	background:linear-gradient(45deg,#1e4d92,#00c6a7);
+}
+#home
+{
+	margin-left: -900px;
+}
+#checkbox
+{
+	margin-left: -110px;
+}
+p{
+	margin-top: -25px;
+	margin-left: 50px;
+	text-align: center;
+}

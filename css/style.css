@@ -1,6 +1,6 @@
 #outer
 {
-	min-height:1450px;
+	min-height:1500px;
 	width:100%;
 	background: aqua;
 	margin:0px auto;
@@ -10,7 +10,8 @@
 {
 	height: 100px;
 	width: 100%;
-	background: red;
+	
+	margin-top: -16px;
 }
 #logo
 {
@@ -23,33 +24,54 @@
 {
 	height: 100px;
 	width:70%;
-	background: green;
+	background:linear-gradient(90deg,#1e4d92,#3deb34,#00c6a7);
 	margin-left: 30%;
 }
 #slider
 {
 	height:500px;
 	width: 100%;
-	background: pink;
+	background:linear-gradient(45deg,#1e4d92,#00c6a7);
 }
 #main
 {
 	height:500px;
 	width: 100%;
-	background: red;
+	background:linear-gradient(90deg,#1e4d92,#f5f2f2 ,#fff,#00c6a7);
+
 }
 #idcard
 {
 	height: 350px;
 	width: 100%;
-	background:blue;
+	background:linear-gradient(90deg,#f5f2f2,#1e4d92,#00c6a7,#fff);
 }
 #footer
 {
+	height: 50px;
+	width: 100%;
+	margin-top: -16px;
+}
+#footertext
+{
 	background:black;
 	height: 50px;
-	width: 1334px;
+	width: 60%;
 	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	text-decoration: none;
+	float: left;
+
+}
+#footertextmedia
+{
+	height: 50px;
+	width: 40%;
+	background:black;
+	margin-left: 60%;
+
 }
 #logoimg
 {
@@ -62,25 +84,26 @@
 {
 	height: 500px;
 	width: 500px;
-	background: navy;
+	
 
 }
 .idcard1
 {
 	height:250px;
 	width: 200px;
-	background: white;
+	background:linear-gradient(45deg,#1e4d92,#00c6a7);
 	float: left;
 	margin:50px;
 	margin-left:12%;
+	border-radius: 5px;
 }
 .i
 {
-	height: 130px;
+	height: 110px;
 	width: 130px;
 	margin: 35px;
 	margin-top:-25px;
-	//box-shadow: 1px 1px 1px blue;
+	
 }
 .idcardimg
 {
@@ -97,9 +120,11 @@
 }
 .t
 {
-	height: 110px;
+	height: 130px;
 	width: 200px;
-	background: green;
+	border-radius:5px; 
+	line-height: 20px;
+	background:linear-gradient(45deg,#00c6a7,#1e4d92);
 }
 .mainimgdiv
 {
@@ -122,4 +147,63 @@
 	transform: scale(1.2,1.2);
 	opacity:10;
 	border-radius: 10px;
+}
+.name
+{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Bodoni MT Black;
+
+}
+.subname
+{
+	margin-top: -20px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	font-family: Bodoni MT Black;
+}
+.developer
+{
+	color: white;
+	text-align: center;
+	font-family: Bodoni MT Black;
+	font-size: 25px;
+	margin-top: -6px;
+}
+#menulist
+{
+	background: red;
+}
+#menulist ul li
+{
+	float: left;
+	list-style-type: none;
+	line-height: 100px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+#menulist ul li a
+{
+	text-decoration: none;
+	color: white;
+
+}
+#footertextmedia ul li 
+{
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-left:70px;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	
+}
+#footertextmedia ul li a i{transition: 1s;}
+#footertextmedia ul li :hover
+{
+	font-size: 25px;
 }

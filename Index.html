@@ -3,14 +3,27 @@
 <head>
 	<title>My Web Page</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div id="outer">
 		<div id="div1">
 			<div id="logo"><img src="img/logo.jpg" id="logoimg"></div>
-			<div id="menu"></div>
+			<div id="menu">
+				<div id="menulist">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#main">Gallery</a></li>
+						<li><a href="singup.html">Sing Up</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="#footer">Cantact</a></li>
+					</ul>
+				</div>
+				</dir>
+			</div>
 			<div id="slider">
-				<marquee>
+				<marquee scrollamount="16" onmouseover="this.stop();" onmouseout="this.start();">
 					<img src="img/img1.jpg" class="sliderimg">
 					<img src="img/img2.jpg" class="sliderimg">
 					<img src="img/img3.jpg" class="sliderimg">
@@ -24,28 +37,40 @@
 			<div id="idcard">
 				<div class="idcard1">
 					<div class="i"><img src="idcardimages/suraj.jpeg" class="idcardimg"></div>
-					<div class="t">Suraj Kumar</div>
+					<div class="t"><h5 class="name">SURAJ KUMAR</h5><p class="subname">COMPUTER SCIENCE & ENGINEERING</p>
+						<p class="developer">JAVA DEVELOPER</p></div>
 				</div>
 				<div class="idcard1">
 					<div class="i"><img src="idcardimages/vivek.jpeg" class="idcardimg"></div>
-					<div class="t"></div>
+					<div class="t"><h5 class="name">VIVEK NISHAD</h5><p class="subname">COMPUTER SCIENCE & ENGINEERING</p><p class="developer">ASP.NET DEVELOPER</p></div>
 				</div>
 				<div class="idcard1">
 					<div class="i"><img src="idcardimages/avi.jpeg" class="idcardimg"></div>
-					<div class="t"></div>
+					<div class="t"><h5 class="name">AVINASH PAL</h5><p class="subname">COMPUTER SCIENCE & ENGINEERING</p><p class="developer">FACEBOOK DEVELOPER</p></div>
 				</div>
 			</div>
 			<div id="main">
-				<div class="mainimgdiv"><img src="image_gallery/img1.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img2.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img3.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img4.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img5.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img6.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img7.jpg" class="mainimg"></div>
-				<div class="mainimgdiv"><img src="image_gallery/img8.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img1.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img2.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img3.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img4.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img5.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img6.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img7.jpg" class="mainimg"></div>
+				<div class="mainimgdiv"><img src="img/img8.jpg" class="mainimg"></div>
 			</div>
-			<div id="footer">lskjflsdmn</div>
+			<div id="footer">
+				<div id="footertext"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright &copy; 2020 All rights reserver | Design & Developed by &nbsp;<i><strong><a href="#" style="text-decoration: none;font-size:25px;font-family: Bodoni MT Black;color:blue;">Suraj Kumar</a></i></strong></div>
+				<div id="footertextmedia">
+					<ul>
+						<li><a href="https://wa.me/917839295503" target="_blank"><i class="fa fa-whatsapp" style="color:#4ac959"></i></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100014372417155" target="_blank"><i class="fa fa-facebook" style="color:#3b5998;"></i></a></li>
+						<li><a href="https://twitter.com/SurajKu5503?s=09" target="_blank"><i class="fa fa-twitter" style="color:#00acee"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/suraj-kumar-865491185/" target="_blank"><i class="fa fa-linkedin" style="color: #0e76a8;"></i></a></li>
+						<li><a href="https://www.instagram.com/surajku5503/" target="_blank"><i class="fa fa-instagram" style="color:#fb3958;"></i></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
