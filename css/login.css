@@ -39,6 +39,7 @@ input
 	width: 80%; 
 	font-size: 15px; 
 	font-weight: bold;
+	border-radius:8px;
 }
 button
 {
@@ -51,6 +52,7 @@ button
 	color: #fff;
 	box-shadow:1px 1px 10px 2px black inset;
 	cursor: pointer;
+	border-radius:8px;
 }
 button:hover
 {
